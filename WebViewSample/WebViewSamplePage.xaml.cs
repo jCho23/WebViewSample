@@ -13,11 +13,11 @@ namespace WebViewSample
 				HorizontalOptions = LayoutOptions.Center
 			};
 
-			WebView webView = new WebView
-			{
+            WebView webView = new WebView
+            {
 				Source = new UrlWebViewSource
 				{
-					Url = "http://blog.xamarin.com/",
+					Url = "http://www.xamarin.com/",
 				},
 				VerticalOptions = LayoutOptions.FillAndExpand
 			};
